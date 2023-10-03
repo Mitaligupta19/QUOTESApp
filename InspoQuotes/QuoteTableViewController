@@ -1,0 +1,33 @@
+//
+//  ViewController.swift
+//  InspoQuotes
+//
+//  Created by Mitali Gupta on 27/09/23.
+//
+
+import UIKit
+
+class QuoteTableViewController: UITableViewController {
+    
+    var  quotesToShow = [
+    ]
+    
+    let premiumQuotes = [
+    ]
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+    }
+    
+    override func numberOfSections(in tableview: UITableView) -> Int {
+        return 0
+    }
+    
+    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int{
+        return 0
+    }
+
+
+}
+
